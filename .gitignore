@@ -1,0 +1,41 @@
+#input data
+data/
+
+External_eval/
+#cache
+__pycache__/
+embedding_cache/
+
+#data after runs
+/runs
+/old_run_outputs/*
+
+/ddim-run*
+/ddim-microtubule-*
+/.models
+
+# only commit selcted visualisations
+/visualisations/all/*
+visualisations/model_comparison_plots/*
+
+#original documentation
+Usage.md
+
+#sbatch scripts
+sbatch_scripts/ 
+
+#vscode
+.vscode
+
+#docu
+LaTeX_helpers/
+
+/results/eval_hpo/
+/results/
+
+#diffusion checkpoint (large, not committed)
+/checkpoint-0290
+/checkpoint-0400
+/checkpoints
+/ddpm-microtubule-256-segguided/
+/train.log

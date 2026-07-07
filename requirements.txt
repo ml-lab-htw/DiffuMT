@@ -1,0 +1,45 @@
+# Core dependencies for DiffuMT
+# Install PyTorch separately first (platform-dependent):
+#   CPU:   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+#   CUDA:  pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+#   Apple: pip install torch torchvision  (MPS support is built-in)
+
+accelerate>=1.0.0
+datasets>=2.0.0
+diffusers>=0.35.0
+huggingface_hub>=1.0.0
+safetensors>=0.4.0
+transformers>=4.40.0
+
+# Image processing
+numpy>=1.24.0
+opencv-python>=4.8.0
+Pillow>=10.0.0
+scikit-image>=0.21.0
+scipy>=1.11.0
+tifffile>=2023.0.0
+
+# Metrics & evaluation
+pandas>=2.0.0
+vendi-score>=0.0.1
+
+# Plotting & visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Training utilities
+tensorboard>=2.13.0
+
+# Misc
+tqdm>=4.65.0
+PyYAML>=6.0
+imageio>=2.31.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Notebooks (optional)
+jupyter>=1.0.0
+ipywidgets>=8.0.0
+
+# Development / testing
+pytest>=7.4.0
