@@ -84,7 +84,7 @@ are planned additions, not yet released.
 Filenames are anonymised to `diffumt_{counter}`; mask/real/synthetic of one item
 share the same id.
 
-2AFC challenge: https://huggingface.co/spaces/HTW-KI-Werkstatt/MT-Diffusion-Challenge
+2AFC challenge (integrated into the project page): https://huggingface.co/spaces/HTW-KI-Werkstatt/DiffuMT
 """
 
 
