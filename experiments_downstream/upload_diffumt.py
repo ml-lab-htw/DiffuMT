@@ -79,7 +79,8 @@ Each labelled item is a **triplet** — a pixel-precise **binary mask**, the **r
 recording, and a **mask-conditioned synthetic** counterpart — with images that
 domain experts cannot reliably distinguish from real ones in a 2AFC study.
 
-Splits: `test` (200), `train` (2961), `unlabeled` (1336, real only).
+Splits: `test` (200) is live now. `train` (2961) and `unlabeled` (1336, real only)
+are planned additions, not yet released.
 Filenames are anonymised to `diffumt_{counter}`; mask/real/synthetic of one item
 share the same id.
 
