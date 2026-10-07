@@ -199,12 +199,14 @@ Draw a binary mask and watch DDIM sampling in real time:
 ## Citation
 
 ```bibtex
-@article{diffumt2026,
-  title  = {Diagnosing Diversity Collapse and Validating Mask-Conditioned
-            Diffusion for Labeled Microtubule Microscopy},
-  author = {Anonymous},
-  year   = {2026},
-  note   = {Under review}
+@inproceedings{koddenbrock2027diffumt,
+  title     = {Diagnosing Diversity Collapse and Validating Mask-Conditioned
+               Diffusion for Labeled Microtubule Microscopy},
+  author    = {Koddenbrock, Mario and Rapp, Frederic and Reber, Simone and
+               Rodner, Erik},
+  booktitle = {Proceedings of Machine Learning Research (PMLR)},
+  year      = {2027},
+  note      = {Northern Lights Deep Learning Conference (NLDL), Spotlight}
 }
 
 @inproceedings{konz2024segguideddiffusion,
