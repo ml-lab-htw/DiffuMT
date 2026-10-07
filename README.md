@@ -208,12 +208,4 @@ Draw a binary mask and watch DDIM sampling in real time:
   year      = {2027},
   note      = {Northern Lights Deep Learning Conference (NLDL), Spotlight}
 }
-
-@inproceedings{konz2024segguideddiffusion,
-  title     = {Anatomically-Controllable Medical Image Generation with
-               Segmentation-Guided Diffusion Models},
-  author    = {Nicholas Konz and Yuwen Chen and Haoyu Dong and Maciej A. Mazurowski},
-  booktitle = {MICCAI},
-  year      = {2024}
-}
 ```
