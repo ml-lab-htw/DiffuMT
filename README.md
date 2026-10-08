@@ -2,11 +2,12 @@
 
 [![CI](https://github.com/HTW-KI-Werkstatt/DiffuMT/actions/workflows/ci.yml/badge.svg)](https://github.com/HTW-KI-Werkstatt/DiffuMT/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![arXiv](https://img.shields.io/badge/arXiv-2610.09957-b31b1b.svg)](https://arxiv.org/abs/2610.09957)
 [![Model](https://img.shields.io/badge/Model-HuggingFace-yellow)](https://huggingface.co/HTW-KI-Werkstatt/DiffuMT)
 [![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-orange)](https://huggingface.co/datasets/HTW-KI-Werkstatt/DiffuMT)
 [![Demo](https://img.shields.io/badge/Demo-HuggingFace%20Space-blue)](https://huggingface.co/spaces/HTW-KI-Werkstatt/DiffuMT)
 
-Source code for the paper **"Diagnosing Diversity Collapse and Validating Mask-Conditioned Diffusion for Labeled Microtubule Microscopy"** *(under review)*.
+Source code for the paper **"Diagnosing Diversity Collapse and Validating Mask-Conditioned Diffusion for Labeled Microtubule Microscopy"**, accepted at NLDL 2027 (Spotlight), to appear in PMLR. [Preprint on arXiv](https://arxiv.org/abs/2610.09957).
 
 We present a three-axis diagnostic — DINOv2 inter/intra-similarity, CIELAB color distribution, and baseline-aware mask fidelity — for evaluating and selecting checkpoints from a mask-conditioned diffusion model trained on IRM microtubule images.
 
