@@ -179,7 +179,7 @@ seg = (transforms.ToTensor()(mask_pil) / 255.0).unsqueeze(0)  # {0, 1/255}
 
 ## Dataset
 
-**DiffuMT** — 2800 mask/real/synthetic triplets (2000 train / 400 val / 400 test):
+**DiffuMT** — mask/real/synthetic triplets. The 200-item test split is live now; train and unlabeled splits are planned additions:
 
 ```python
 from datasets import load_dataset
