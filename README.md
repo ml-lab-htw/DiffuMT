@@ -207,6 +207,8 @@ Draw a binary mask and watch DDIM sampling in real time:
                Rodner, Erik},
   booktitle = {Proceedings of Machine Learning Research (PMLR)},
   year      = {2027},
-  note      = {Northern Lights Deep Learning Conference (NLDL), Spotlight}
+  note      = {Northern Lights Deep Learning Conference (NLDL), Spotlight},
+  eprint    = {2610.09957},
+  archivePrefix = {arXiv}
 }
 ```
